@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0PACITY 0.01</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <!--top-user class for the ccs and id for the form in js-->
+            <div class="top-nav">
+                <ul class="user-nav">
+                    <li><button type="button" id="register-user"  class="top-user text-gray-900 bg-white border  focus:outline-none hover:bg-gray-100   font-xs rounded-full text-sm px-5  me-2  dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600">Register</button></li>
+                    <li><button type="button" id="log-user"  class="top-user text-gray-900 bg-white border  focus:outline-none hover:bg-gray-100  font-xs rounded-full text-sm px-5  me-2  dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600">Login</button></li>
+                    <li><a href="/pages/user.html"><img class="user-pic" src="/assets/pic/Syluxs.jpeg" alt="Rounded avatar"></a></li>
+                </ul>
+            </div>
+            <!--nav-comp-->
+            <a id="logo-comp" href="/index.html"><img class="logo-pic" src="/assets/pic/hunter.jpeg" alt="test"></a>
+            <ul id="nav-comp">  
+                <li><a href="/pages/who-we-are.html">Who we are</a></li>
+                <li><a href="/pages/news.html">News</a></li>
+                <li><a href="/pages/medias.html">Medias</a></li>
+                <li><a href="/pages/market.html">Market</a></li>
+              </ul>
+            <!--mobile-only -->
+                <ul id="nav-mobile">
+                    <li><div id="menuToggle">
+                        <input type="checkbox"/>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+               
+                        <ul id="menu">
+                            <a href="/pages/who-we-are.html"><li>Who we are</li></a>
+                            <a href="/pages/news.html"><li>News</li></a>
+                            <a href="/pages/medias.html"><li>Medias</li></a>
+                            <a href="/pages/market.html"><li>Market</li></a>
+                        </ul>
+                        </div>
+                    </li>
+                    <li id="logo-mobile">
+                        <a href="/index.html"><img class="logo-pic" src="/assets/pic/hunter.jpeg" alt="test"></a></li>
+            </ul>
+            <!--end-mobile-->
+        </nav>
+        
+<div id="background-pic" class="background-pic">
+            <h1><span>zer</span>0pacity</h1>
+            <div id="title-string"></div>
+            <h3>bots with full transparency</h3>
+           
+            </div>
+        </div>
+    </header>
+    <!--section-intro--> 
+        <!--bots-->
+            <section id="bots" class="bots bg-gray-50 dark:bg-gray-800">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+                    <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                        <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Bots</h2>
+                    </div> 
+                    <div class="grid gap-8 lg:grid-cols-2">
+                        <article id="free-bot" class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                            <img class="pic-for-index" src="/assets/pic/stock-market-graph-or-forex-trading-chart-vector-26119988-1197218301.jpeg" alt="test">
+                            <div class="manage-info">
+                                <p class="mb-5 font-light text-gray-500 dark:text-gray-400"><span id="name-of-bot">Name of bot</span></p>
+                                <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Result by <span id="bot-perf-W">W</span>/<span id="bot-perf-M">M</span>/<span id="bot-perf-Y">Y</span></p>
+                            </div>
+                            <p id="about bot" class="mb-5 font-light text-gray-500 dark:text-gray-400">About bot</p>
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center space-x-4">
+                                    <img id="pic-of-creator" class="w-7 h-7 rounded-full" src="/assets/pic/Syluxs.jpeg" alt="Syluxs" />
+                                    <span class="font-medium dark:text-white">
+                                        Syluxs
+                                    </span>
+                                </div>
+                                <a href="#" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                                    Read more
+                                    <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                        </article>
+                        <article id="last-bot" class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                            <img class="pic-for-index" src="/assets/pic/stock-market-graph-or-forex-trading-chart-vector-26119988-1197218301.jpeg" alt="test">
+                            <div class="manage-info">
+                                <p class="mb-5 font-light text-gray-500 dark:text-gray-400"><span id="name-of-bot">Name of bot</span></p>
+                                <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Result by <span id="bot-perf-W">W</span>/<span id="bot-perf-M">M</span>/<span id="bot-perf-Y">Y</span></p>
+                            </div>
+                            <p id="about bot" class="mb-5 font-light text-gray-500 dark:text-gray-400">About bot</p>
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center space-x-4">
+                                    <img id="pic-of-creator" class="w-7 h-7 rounded-full" src="/assets/pic/Syluxs.jpeg" alt="Syluxs" />
+                                    <span class="font-medium dark:text-white">
+                                        Syluxs
+                                    </span>
+                                </div>
+                                <a href="#" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                                    Read more
+                                    <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                        </article>
+                    </div>  
+                </div>
+            </section>
+            <!--news-medias-->
+            <section id="news-medias" class="news-medias bg-gray-50 dark:bg-gray-800">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+                    <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                        <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Last News/Medias</h2>
+                    </div> 
+                    <div class="grid gap-8 lg:grid-cols-2">
+                        <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">How to quickly deploy a static website</a></h2>
+                            <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.</p>
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center space-x-4">
+                                    <img id="pic-of-creator" class="w-7 h-7 rounded-full" src="/assets/pic/Syluxs.jpeg" alt="Syluxs" />
+                                    <span class="font-medium dark:text-white">
+                                        Syluxs
+                                    </span>
+                                </div>
+                                <a href="#" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                                    Read more
+                                    <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                            <div class="responsive-video">
+                                <iframe src="https://www.youtube.com/embed/B9YZBIYmcrc?si=GB2GV5ege_WPE9jq" title="On_en_a_Gros_VIDEO" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </article>                   
+                    </div>  
+                </div>
+              </section>
+<!--footer-->
+    <footer>
+        <ul id="footer-nav">
+            <li><a href="/pages/who-we-are.html">Who we are</a></li>
+                <li><a href="/pages/news.html">News</a></li>
+                <li><a href="/pages/medias.html">Medias</a></li>
+                <li><a href="/pages/market.html">Market</a></li>
+        </ul>
+        <div id="footer-string">
+        </div>
+        <a href="/index.html" id="logo-foot"><img src="/assets/pic/hunter.jpeg" alt="test"></a>
+        <ul id="icon">
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></i></li>
+        </ul>
+        <div id="cond-string">   
+        </div>
+        <ul id="terms">
+            <li><a href="#">@Lytios.co</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Cookie notice</a></li>
+        </ul>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
